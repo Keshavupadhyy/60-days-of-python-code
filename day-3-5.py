@@ -18,6 +18,11 @@ e = lower_case_string.count("e")
 
 love = l + o + v + e
 
-pyar = true + love
+pyar = int(str(true) + str(love))
 
-print(pyar)
+if pyar > 10 or pyar > 90:
+    print(f"you love score is {pyar}")
+elif 40 <= pyar <= 50:
+    print(f"your socre is {pyar}, your alll together..")
+else:
+    print(f"your sxore is {pyar}")
